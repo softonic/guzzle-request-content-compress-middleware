@@ -25,5 +25,6 @@ class RequestContentCompressTest extends TestCase
         $gzippedContent = gzencode(self::CONTENT);
         $this->assertSame($gzippedContent, (string)$request->getBody());
         $this->assertSame('gzip', $request->getHeaderLine('Content-Encoding'));
+        $this->assertEquals(strlen($gzippedContent), $request->getHeaderLine('Content-Length'));
     }
 }

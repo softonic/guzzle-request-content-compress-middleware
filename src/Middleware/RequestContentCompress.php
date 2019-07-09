@@ -12,7 +12,13 @@ final class RequestContentCompress
     {
         return static function (RequestInterface $request, array $options) use ($handler) {
             $content = gzencode($request->getBody()->getContents());
-            $request = modify_request($request, ['body' => $content, 'set_headers' => ['Content-Encoding' => 'gzip']]);
+            $request = modify_request($request, [
+                'body' => $content,
+                'set_headers' => [
+                    'Content-Encoding' => 'gzip',
+                    'Content-Length'   => strlen($content),
+                ],
+            ]);
 
             return $handler($request, $options);
         };
