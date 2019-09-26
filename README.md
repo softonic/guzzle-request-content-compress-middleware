@@ -7,6 +7,8 @@ Guzzle request content compress middleware
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/softonic/guzzle-request-content-compress-middleware.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/guzzle-request-content-compress-middleware/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/softonic/guzzle-request-content-compress-middleware.svg?style=flat-square)](https://scrutinizer-ci.com/g/softonic/guzzle-request-content-compress-middleware)
 [![Total Downloads](https://img.shields.io/packagist/dt/softonic/guzzle-request-content-compress-middleware.svg?style=flat-square)](https://packagist.org/packages/softonic/guzzle-request-content-compress-middleware)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/softonic/guzzle-request-content-compress-middleware.svg?style=flat-square)](http://isitmaintained.com/project/softonic/guzzle-request-content-compress-middleware "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/softonic/guzzle-request-content-compress-middleware.svg?style=flat-square)](http://isitmaintained.com/project/softonic/guzzle-request-content-compress-middleware "Percentage of issues still open")
 
 This middleware adds the ability to automatically compress the content of a request
 
